@@ -1,0 +1,28 @@
+INSERT into Fleet (id, ship_id, name) VALUES 1, 1, "North";
+INSERT into Fleet (id, ship_id, name) VALUES 1, 2, "North";
+INSERT into Fleet (id, ship_id, name) VALUES 1, 3, "North";
+INSERT into Fleet (id, ship_id, name) VALUES 2, 4, "South";
+INSERT into Fleet (id, ship_id, name) VALUES 2, 5, "South";
+INSERT into Fleet (id, ship_id, name) VALUES 2, 6, "South";
+
+INSERT into Ship (ship_id, name, date_built) VALUES 1, "Green", "Nov 2012";
+INSERT into Ship (ship_id, name, date_built) VALUES 2, "Blue", "Jan 2004";
+INSERT into Ship (ship_id, name, date_built) VALUES 3, "Purple", "Feb 2004";
+INSERT into Ship (ship_id, name, date_built) VALUES 4, "Yellow", "Nov 2010";
+INSERT into Ship (ship_id, name, date_built) VALUES 5, "Orange", "Jan 2009";
+INSERT into Ship (ship_id, name, date_built) VALUES 6, "Silver", "Mar 200"6;
+
+INSERT into Sailor (sailor_id, tour_id, name, rank, date_of_birth) VALUES "100",1, "Mike", "Captain", "Nov 12, 1977";
+INSERT into Sailor (sailor_id, tour_id, name, rank, date_of_birth) VALUES "101",2, "Joe", "Captain", "Nov 12, 1977";
+INSERT into Sailor (sailor_id, tour_id, name, rank, date_of_birth) VALUES "102",4, "Sarah", "Lieutenant, "Nov 12, 1977";
+INSERT into Sailor (sailor_id, tour_id, name, rank, date_of_birth) VALUES "103",2, "Ralf", "Private", "Nov 12, 1977";
+INSERT into Sailor (sailor_id, tour_id, name, rank, date_of_birth) VALUES "104",3, "Melina", "Private", "Nov 12, 1977";
+INSERT into Sailor (sailor_id, tour_id, name, rank, date_of_birth) VALUES "105",3, "James", "Private", "Nov 12, 1977";
+
+INSERT into Tour_of_duty (ship_id, sailor_id, begin_date, end_date) VALUES 1, 100, "Jan 10, 2016", "Jan 19, 2018"
+INSERT into Tour_of_duty (ship_id, sailor_id, begin_date, end_date) VALUES 3, 101, "Jan 10, 2016", "Jan 19, 2018"
+INSERT into Tour_of_duty (ship_id, sailor_id, begin_date, end_date) VALUES 3, 103, "Jan 10, 2016", "Jan 19, 2018"
+INSERT into Tour_of_duty (ship_id, sailor_id, begin_date, end_date) VALUES 6, 102, "Mar 20, 2014", "July 19, 2018"
+INSERT into Tour_of_duty (ship_id, sailor_id, begin_date, end_date) VALUES 4, 105, "Mar 20, 2014", "July 19, 2018"
+INSERT into Tour_of_duty (ship_id, sailor_id, begin_date, end_date) VALUES 5, 104, "Mar 20, 2014", "July 19, 2018"
+
